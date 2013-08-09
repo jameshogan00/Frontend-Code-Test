@@ -1,1 +1,125 @@
-/* CSS goes here */
+/*-----------------------------------
+LAYOUT   
+-------------------------------------*/
+
+.container {
+	width: 960px;
+	margin: auto;
+}
+
+/*----------------------------------
+BASE CSS
+------------------------------------*/
+
+ul {
+	margin: 0 0 0 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.toggle-visibility {
+	visibility: hidden;
+}
+
+#separate {
+	border-bottom: 3px solid silver;
+}
+
+
+/*-----------------------------------
+HEADER & FOOTER
+-------------------------------------*/
+
+header, footer {
+	width: 100%;
+	background: black;
+	color: white;
+}
+
+footer {
+	padding: 20px 0 20px 0;
+}
+
+#header-content ul {
+	padding: 30px 0 30px 0;
+}
+
+#header-content li {
+	display: inline;
+	padding: 20px;
+}
+
+#header-content li a, #footer-content li a {
+	color: white;
+	text-decoration: none;
+	color: inherit;
+}
+
+#header-content a:hover, #footer-content a:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+
+
+
+
+/*--------------------------------------------------
+MAIN CONTENT SECTION
+---------------------------------------------------*/
+
+.main-content-section {
+	width: 660px;
+	float: left;
+}
+
+.main-content-sidebar {
+	float: left;
+	background: yellow;
+}
+
+.news-story-img, .news-story-txt {
+	height: 260px;
+}
+
+.news-story-img {
+  width: 180px;
+  float: left;
+}
+
+.news-story-img img {
+	margin: 20px;
+}
+
+.news-story-txt {
+  width: 480px;
+  float: left;
+}
+
+.news-story-txt img {
+	float: left;
+	padding-top: 3px;
+}
+
+.news-story-txt h1 {
+	font-size: 24px;
+	color: green;
+}
+
+.news-story-txt p {
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.comment-numbers {
+	float: left;
+	color: green;
+	margin: 0 0 5px 5px;
+	font-size: 11px;
+}
